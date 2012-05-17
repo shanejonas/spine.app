@@ -1,7 +1,5 @@
-require = window.require
-
 describe '{{name}}', ->
-  {{name}} = require('controllers/{{path}}')
+  {{name}} = helper.require('controllers/{{path}}')
   
-  it 'can noop', ->
-    
+  it 'should exist', ->
+    {{name}}.should.exist

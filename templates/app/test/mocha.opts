@@ -1,0 +1,6 @@
+--require should test/helper
+--reporter min
+--colors
+--watch
+--growl
+--compilers coffee:coffee-script

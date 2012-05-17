@@ -1,7 +1,5 @@
-require = window.require
-
 describe '{{name}}', ->
-  {{name}} = require('models/{{path}}')
+  {{name}} = helper.require('models/{{path}}')
 
-  it 'can noop', ->
-    
+  it 'should exist', ->
+    {{name}}.should.exist

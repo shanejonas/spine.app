@@ -4,9 +4,10 @@
   "version": "0.3.2",
   "repository": {
     "type": "git",
-    "url": "git://github.com/maccman/spine.app.git"
+    "url": "git://github.com/destroytoday/spine.app.git"
   },
   "author": "Alex MacCaw <info@eribium.org>",
+  "contributors": ["Jonnie Hallman <jonnie@destroytoday.com>"],
   "bin": { "spine": "./bin/spine" },
   "engines": {
     "node": "*"
