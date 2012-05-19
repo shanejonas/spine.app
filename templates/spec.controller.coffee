@@ -1,5 +1,5 @@
 describe '{{name}}', ->
   {{name}} = helper.require('controllers/{{path}}')
   
-  it 'should exist', ->
-    {{name}}.should.exist
+  it 'should fail', ->
+    false.should.be.true
