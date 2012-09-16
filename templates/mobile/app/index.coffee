@@ -5,7 +5,8 @@ Spine   = require('spine')
 
 class App extends Stage.Global
   constructor: ->
-    @log 'booted'
     super
+    @footer.html require './views/navbar/navbar'
+    @log 'booted'
 
 module.exports = App

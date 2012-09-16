@@ -2,20 +2,20 @@
 
 body, html
   height: 100%
-  
+
 .viewport
   position: relative
-  
+
   > *
     position: absolute
     left: 0
     right: 0
     top: 0
     bottom: 0
-    
+
     &:not(.active)
       display: none
-      
+
 body.stage 
   > header
     position: absolute
@@ -29,7 +29,7 @@ body.stage
     right: 0
     top: 0
     bottom: 0
-    
+
   > footer
     position: absolute
     left: 0
@@ -44,5 +44,6 @@ body.stage
 
     overflow: auto
     -webkit-overflow-scrolling: touch
-    
+
 @import './theme'
+@import './views/navbar'

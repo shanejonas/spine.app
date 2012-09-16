@@ -1,0 +1,8 @@
+<nav class="navBar">
+  <a class="button">
+    <i>i</i>
+    <span class="text">
+      Tab
+    </span>
+  </a>
+</nav>
