@@ -8,7 +8,13 @@
     "json2ify": "~0.0.1",
     "jqueryify": "~0.0.1",
     "spine": "~1.0.6",
-    "spine.mobile": "~1.0.0",
+    "spine.mobile": "git://github.com/shanejonas/spine.mobile.git#master",
     "gfx": "~0.0.4"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.3.3",
+    "should": "~1.1.0",
+    "mocha": "~1.4.2",
+    "jsdom": "~0.2.15"
   }
 }

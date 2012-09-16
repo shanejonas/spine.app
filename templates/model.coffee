@@ -1,6 +1,6 @@
-Spine = require('spine')
+{Model} = require 'spine'
 
-class {{name}} extends Spine.Model
+class {{name}} extends Model
   @configure '{{name}}'
-  
+
 module.exports = {{name}}

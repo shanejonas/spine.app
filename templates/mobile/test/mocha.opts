@@ -1,7 +1,7 @@
+--recursive
 --require should
 --require coffee-script
---require ./test/helper.coffee
---recursive
+--require test/helper.coffee
 --reporter spec
 --colors
 --watch

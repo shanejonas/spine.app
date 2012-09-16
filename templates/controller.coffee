@@ -1,7 +1,7 @@
-Spine = require('spine')
+{Controller} = require 'spine'
 
-class {{name}} extends Spine.Controller
+class {{name}} extends Controller
   constructor: ->
     super
-    
+
 module.exports = {{name}}
